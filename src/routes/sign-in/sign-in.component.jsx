@@ -4,6 +4,7 @@ import {
 } from "../../utils/firebase/firebase.utils";
 
 import SignUpForm from "../../components/sign-up-form/sign-up-form.component";
+import { createAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils";
 
 const SignIn = () => {
   const logGoogleUser = async () => {
